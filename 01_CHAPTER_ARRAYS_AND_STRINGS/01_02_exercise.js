@@ -45,7 +45,6 @@ function esPermutacionPorFrecuencia(str1, str2) {
 
   // 2. Contamos los caracteres de la primera cadena.
   for (const caracter of str1) {
-    console.log(frecuencia);
     // Si el caracter ya está en el mapa, le sumamos 1. Si no, lo inicializamos en 1.
     const conteo = (frecuencia.get(caracter) || 0) + 1;
     frecuencia.set(caracter, conteo);
@@ -53,7 +52,6 @@ function esPermutacionPorFrecuencia(str1, str2) {
 
   // 3. Descontamos los caracteres de la segunda cadena.
   for (const caracter of str2) {
-    console.log(frecuencia);
     const conteo = frecuencia.get(caracter);
 
     // Si el caracter no existe en el mapa o su conteo ya es cero, no son permutaciones.

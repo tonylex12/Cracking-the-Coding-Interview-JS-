@@ -18,8 +18,6 @@ function esPermutacionDePalindromo(str) {
     }
   }
 
-  console.log(frecuencia);
-
   // 2. Verificamos cuántos caracteres tienen un conteo impar.
   let conteoImpar = 0;
   for (const count of frecuencia.values()) {

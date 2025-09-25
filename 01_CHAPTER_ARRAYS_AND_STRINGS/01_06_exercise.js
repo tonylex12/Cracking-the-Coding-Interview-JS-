@@ -14,7 +14,6 @@ function comprimirCadena(str) {
 
   // Recorremos la cadena con el puntero 'i'.
   for (let i = 0; i < str.length; i++) {
-    console.log(partesComprimidas);
     let conteo = 1;
     const caracterActual = str[i];
 
