@@ -12,11 +12,13 @@ class Node {
  * @returns {Node} La cabeza de la nueva lista particionada.
  */
 function partition(head, x) {
-  // Punteros para la cabeza y la cola de ambas listas
-  let lessHead = null;
-  let lessTail = null;
-  let greaterHead = null;
-  let greaterTail = null;
+  // Usar dummy nodes para simplificar la lógica
+  let lessDummy = new Node(0);
+  let greaterDummy = new Node(0);
+
+  // Punteros para construir las listas
+  let lessCurrent = lessDummy;
+  let greaterCurrent = greaterDummy;
 
   let node = head;
 
@@ -28,35 +30,21 @@ function partition(head, x) {
 
     if (node.data < x) {
       // Añadir el nodo a la lista de "menores"
-      if (lessHead === null) {
-        lessHead = node;
-        lessTail = node;
-      } else {
-        lessTail.next = node;
-        lessTail = node;
-      }
+      lessCurrent.next = node;
+      lessCurrent = node;
     } else {
       // Añadir el nodo a la lista de "mayores o iguales"
-      if (greaterHead === null) {
-        greaterHead = node;
-        greaterTail = node;
-      } else {
-        greaterTail.next = node;
-        greaterTail = node;
-      }
+      greaterCurrent.next = node;
+      greaterCurrent = node;
     }
     node = nextNode;
   }
 
-  // Si no hubo nodos menores que x, la lista completa es la de mayores.
-  if (lessHead === null) {
-    return greaterHead;
-  }
-
   // 2. Unir las dos listas
-  lessTail.next = greaterHead;
+  lessCurrent.next = greaterDummy.next;
 
-  return lessHead;
+  // Retornar la cabeza real (saltando el dummy node)
+  return lessDummy.next;
 }
 
 // --- Ejemplo de Uso ---
