@@ -2,7 +2,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square&logo=javascript)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Progress](https://img.shields.io/badge/Progress-17%2F189-green?style=flat-square)
+![Progress](https://img.shields.io/badge/Progress-18%2F189-green?style=flat-square)
 
 Soluciones en JavaScript para los problemas del libro **"Cracking the Coding Interview"** (6ta Edición) de Gayle Laakmann McDowell.
 
@@ -50,6 +50,9 @@ Este repositorio contiene implementaciones detalladas en JavaScript de los probl
 │   ├── 02_07_exercise.js    # Intersection
 │   └── 02_08_exercise.js    # Loop Detection
 │
+├── 03_STACKS_AND_QUEUES/
+│   └── 03_01_exercise.js    # Three in One
+│
 └── README.md
 ```
 
@@ -82,9 +85,19 @@ Este repositorio contiene implementaciones detalladas en JavaScript de los probl
 
 **Completado: 8/8** ✅
 
+### Capítulo 3: Stacks and Queues
+
+- [x] 3.1 - Three in One
+- [ ] 3.2 - Stack Min
+- [ ] 3.3 - Stack of Plates
+- [ ] 3.4 - Queue via Stacks
+- [ ] 3.5 - Sort Stack
+- [ ] 3.6 - Animal Shelter
+
+**Completado: 1/6** 🚧
+
 ### Próximos Capítulos
 
-- [ ] Capítulo 3: Stacks and Queues
 - [ ] Capítulo 4: Trees and Graphs
 - [ ] Capítulo 5: Bit Manipulation
 - [ ] Capítulo 6: Math and Logic Puzzles
