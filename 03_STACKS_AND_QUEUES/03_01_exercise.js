@@ -94,7 +94,6 @@ class MultiStack {
 
 // --- Ejemplo de Uso ---
 const stacks = new MultiStack(3); // Tres pilas, cada una con capacidad para 3 elementos.
-console.log(stacks);
 
 console.log("Añadiendo elementos...");
 stacks.push(0, 10);
