@@ -2,7 +2,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square&logo=javascript)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Progress](https://img.shields.io/badge/Progress-18%2F189-green?style=flat-square)
+![Progress](https://img.shields.io/badge/Progress-20%2F189-green?style=flat-square)
 
 Soluciones en JavaScript para los problemas del libro **"Cracking the Coding Interview"** (6ta Edición) de Gayle Laakmann McDowell.
 
@@ -51,7 +51,9 @@ Este repositorio contiene implementaciones detalladas en JavaScript de los probl
 │   └── 02_08_exercise.js    # Loop Detection
 │
 ├── 03_STACKS_AND_QUEUES/
-│   └── 03_01_exercise.js    # Three in One
+│   ├── 03_01_exercise.js    # Three in One
+│   ├── 03_02_exercise.js    # Stack Min
+│   └── 03_03_exercise.js    # Stack of Plates
 │
 └── README.md
 ```
@@ -88,13 +90,13 @@ Este repositorio contiene implementaciones detalladas en JavaScript de los probl
 ### Capítulo 3: Stacks and Queues
 
 - [x] 3.1 - Three in One
-- [ ] 3.2 - Stack Min
-- [ ] 3.3 - Stack of Plates
+- [x] 3.2 - Stack Min
+- [x] 3.3 - Stack of Plates
 - [ ] 3.4 - Queue via Stacks
 - [ ] 3.5 - Sort Stack
 - [ ] 3.6 - Animal Shelter
 
-**Completado: 1/6** 🚧
+**Completado: 3/6** 🚧
 
 ### Próximos Capítulos
 
